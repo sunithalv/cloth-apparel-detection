@@ -119,9 +119,3 @@ docker run -d -p 8080:8080 <IMAGEID>
 
 **Custom Logger and Exceptions** are used in the project for better debugging purposes.
 
-
-## Conclusion
-
-We have created an API which predicts the different types of apparel.
-
-=====================================================================
