@@ -15,17 +15,17 @@
 
 ## Problem statement
 
-In this project, we have created an API which predicts a different type of apparel. 
+In this project, an API is created which predicts a different types of apparel such as 'bag', 'dress', 'hat', 'jacket', 'pants', 'shirt', 'shoe', 'shorts', 'skirt', 'sunglass'. 
 
 ## Solution Proposed
-The solution proposed for the above problem is that we have used Computer vision to solve the above problem to detect different types of apparel.
-We have used the Pytorch framework to solve the above problem also we created our custom object detection network with the help of PyTorch.
-Then we created an API that takes in the images and predicts what type of apparel a person is wearing. Then we dockerized the application and deployed the model on the AWS cloud.
+Here Computer vision is used to detect different types of apparel.
+Pytorch framework is used to solve the above problem and a custom object detection network is created with the help of PyTorch.
+An API takes in the images and predicts what type of apparel a person is wearing. The application is dockerized and the model is deployed on the AWS cloud.
 
 ## Dataset Used
 
-Dataset composed of 11 classes. 
-Main objetive is to identify different type of apparels.
+Dataset composed of 10 classes. 
+Main objective is to identify different type of apparels.
 
 ## How to run?
 
