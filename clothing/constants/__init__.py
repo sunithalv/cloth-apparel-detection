@@ -6,9 +6,9 @@ TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 
 # Data Ingestion Constants
 ARTIFACTS_DIR = os.path.join("artifacts", TIMESTAMP)
-BUCKET_NAME = 'clothing-apparel'
+BUCKET_NAME = 'clothdetectionbucket'
 SAVED_MODEL_DIR = "PredictModel"
-ZIP_FILE_NAME = 'clothing-dataset.zip'
+ZIP_FILE_NAME = 'cloth_data.zip'
 DATA_DIR = "data"
 ANNOTATIONS_COCO_JSON_FILE = '_annotations.coco.json'
 

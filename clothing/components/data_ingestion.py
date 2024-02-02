@@ -37,7 +37,6 @@ class DataIngestion:
             zip_obj.extractall(path=self.data_ingestion_config.ZIP_FILE_DIR)
 
             logging.info("Exited the unzip_and_clean method of Data ingestion class")
-
             return self.data_ingestion_config.TRAIN_DATA_ARTIFACT_DIR, self.data_ingestion_config.TEST_DATA_ARTIFACT_DIR, self.data_ingestion_config.VALID_DATA_ARTIFACT_DIR
         except Exception as e:
             raise CustomException(e, sys) from e

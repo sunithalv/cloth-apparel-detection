@@ -29,6 +29,8 @@ async def training():
 
         train_pipeline.run_pipeline()
 
+        #print("Executed successfully train pipeline")
+
         return Response("Training successful !!")
 
     except Exception as e:
